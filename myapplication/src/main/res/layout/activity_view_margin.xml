@@ -13,7 +13,8 @@
        android:layout_height="match_parent"
        android:background="#FFFF99"
        android:layout_margin="20dp"
-       android:padding="60dp">
+       android:padding="60dp"
+       >
 
 <!--       最内层为红色-->
        <View
