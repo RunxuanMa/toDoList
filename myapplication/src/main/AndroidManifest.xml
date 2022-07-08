@@ -9,14 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAndroid">
+
         <activity
-            android:name=".ViewGravityActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ViewMarginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ViewBorderActivity"
+            android:name=".calculator"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
