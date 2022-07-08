@@ -79,7 +79,7 @@ public class cal {
                 int num1=Int(stacks[0].pop());
                 int num2=Int(stacks[0].pop());
 
-                stacks[0].push(num2-num1);
+                stacks[0].push(num1-num2);
             }
 
 

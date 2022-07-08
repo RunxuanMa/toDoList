@@ -49,7 +49,7 @@ public class calculator extends AppCompatActivity {
             cal_content.append("7");
         });
         cal_8.setOnClickListener(v -> {
-            cal_content.append("9");
+            cal_content.append("8");
         });
         cal_9.setOnClickListener(v -> {
             cal_content.append("9");
