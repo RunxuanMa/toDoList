@@ -34,46 +34,26 @@ public class calculator extends AppCompatActivity {
         Button cal_mul = findViewById(R.id.cal_mul);
         Button cal_sub = findViewById(R.id.cal_sub);
 
-        cal_0.setOnClickListener(v -> {
-            cal_content.append("0");
-        });
+        cal_0.setOnClickListener(v -> cal_content.append("0"));
         cal_1.setOnClickListener(v -> cal_content.append("1"));
         cal_2.setOnClickListener(v -> cal_content.append("2"));
         cal_3.setOnClickListener(v -> cal_content.append("3"));
         cal_4.setOnClickListener(v -> cal_content.append("4"));
         cal_5.setOnClickListener(v -> cal_content.append("5"));
-        cal_6.setOnClickListener(v -> {
-            cal_content.append("6");
-        });
-        cal_7.setOnClickListener(v -> {
-            cal_content.append("7");
-        });
-        cal_8.setOnClickListener(v -> {
-            cal_content.append("8");
-        });
-        cal_9.setOnClickListener(v -> {
-            cal_content.append("9");
-        });
-        cal_AC.setOnClickListener(v -> {
-            cal_content.setText("");
-        });
-        cal_add.setOnClickListener(v -> {
-            cal_content.append("+");
-        });
-        cal_div.setOnClickListener(v -> {
-            cal_content.append("÷");
-        });
-        cal_mul.setOnClickListener(v -> {
-            cal_content.append("*");
-        });
-        cal_sub.setOnClickListener(v -> {
-            cal_content.append("-");
-        });
+        cal_6.setOnClickListener(v -> cal_content.append("6"));
+        cal_7.setOnClickListener(v -> cal_content.append("7"));
+        cal_8.setOnClickListener(v -> cal_content.append("8"));
+        cal_9.setOnClickListener(v -> cal_content.append("9"));
+        cal_AC.setOnClickListener(v -> cal_content.setText(""));
+        cal_add.setOnClickListener(v -> cal_content.append("+"));
+        cal_div.setOnClickListener(v -> cal_content.append("÷"));
+        cal_mul.setOnClickListener(v -> cal_content.append("*"));
+        cal_sub.setOnClickListener(v -> cal_content.append("-"));
         cal_equal.setOnClickListener(v -> {
             CharSequence text = cal_content.getText();
 
             Integer caltext = cal.Cal(text);
-            String s=caltext.toString(caltext);
+            String s= Integer.toString(caltext);
 
             cal_content.append("=");
             cal_content.append(s);

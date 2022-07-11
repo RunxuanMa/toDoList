@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="计算器(不支持小数和括号)"
+        android:text="计算器(不支持小数和括号) Written By Ma"
         android:textSize="30dp"
         android:textColor="@color/black"
         />

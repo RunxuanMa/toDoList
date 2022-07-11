@@ -1,4 +1,5 @@
 package com.example.myapplication.util;
+
 import java.util.Stack;
 
 public class cal {
@@ -36,10 +37,10 @@ public class cal {
         int result;
         String[]nums=new String[stacks[0].size()];
         char[]symbles=new char[stacks[1].size()];
-        for (int i=0;i<nums.length;i++){
+        for (int i=nums.length-1;i>=0;i--){
             nums[i]=(String)(stacks[0].pop());
         }
-        for (int i=0;i<symbles.length;i++){
+        for (int i=symbles.length-1;i>=0;i--){
             symbles[i]=(char)(stacks[1].pop());
         }
 
@@ -49,14 +50,14 @@ public class cal {
 
 
             if (symbles[i-1]=='*'){
-                int num1=Int((String) stacks[0].pop());
+                int num1=Int( stacks[0].pop());
                 int num2=Int((String) nums[i]);
                 stacks[0].push(num1*num2);
             }
             if (symbles[i-1]=='÷'){
                 int num1=Int(stacks[0].pop());
                 int num2=Int((String) nums[i]);
-                stacks[0].push(num2/num1);
+                stacks[0].push(num1/num2);
             }
             else  if (symbles[i-1]=='+'||symbles[i-1]=='-'){
                 stacks[0].push(nums[i]);
@@ -79,7 +80,7 @@ public class cal {
                 int num1=Int(stacks[0].pop());
                 int num2=Int(stacks[0].pop());
 
-                stacks[0].push(num1-num2);
+                stacks[0].push(num2-num1);
             }
 
 

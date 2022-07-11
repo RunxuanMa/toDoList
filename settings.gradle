@@ -16,3 +16,4 @@ rootProject.name = "my android"
 include ':app'
 include ':mybutton'
 include ':myapplication'
+include ':fileread'
