@@ -11,9 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/databasedemo" />
             <option value="$PROJECT_DIR$/fileread" />
             <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/mybutton" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/todolist" />
           </set>
         </option>
       </GradleProjectSettings>

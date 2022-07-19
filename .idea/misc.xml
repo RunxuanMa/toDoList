@@ -32,6 +32,18 @@
         <entry key="..\:/Android/test/mybutton/src/main/res/drawable/ic_baseline_accessible_24.xml" value="0.156" />
         <entry key="..\:/Android/test/mybutton/src/main/res/drawable/ic_launcher_background.xml" value="0.156" />
         <entry key="..\:/Android/test/mybutton/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/test/recyclerview/src/main/res/layout/activity_main.xml" value="0.1671875" />
+        <entry key="..\:/Android/test/recyclerview/src/main/res/layout/item_gird_view.xml" value="0.2484375" />
+        <entry key="..\:/Android/test/recyclerview/src/main/res/layout/item_list_view.xml" value="0.4" />
+        <entry key="..\:/Android/test/recyclerview/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Android/test/todolist/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2055" />
+        <entry key="..\:/Android/test/todolist/src/main/res/drawable/frame.xml" value="0.1855" />
+        <entry key="..\:/Android/test/todolist/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/Android/test/todolist/src/main/res/layout/activity_list_view.xml" value="0.32131147540983607" />
+        <entry key="..\:/Android/test/todolist/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Android/test/todolist/src/main/res/layout/firstlayer.xml" value="0.20192307692307693" />
+        <entry key="..\:/Android/test/todolist/src/main/res/layout/item_list_view.xml" value="0.264" />
+        <entry key="..\:/Android/test/todolist/src/main/res/menu/menulist.xml" value="0.2484375" />
       </map>
     </option>
   </component>

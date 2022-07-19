@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_listView"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:text="1" android:gravity="center"
+        android:id="@+id/listView_id"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:textSize="30dp"
+        android:text=""
+        android:id="@+id/listView_Content"/>
+
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text=""
+        android:id="@+id/listView_created"/>
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text=""
+        android:id="@+id/listView_updated"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
